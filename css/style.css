@@ -128,7 +128,7 @@ h1 {
     text-transform: capitalize;
 }
 
-#now {
+.now {
     color: #c4d2dd;
     text-transform: uppercase;
 }
