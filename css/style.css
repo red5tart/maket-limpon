@@ -14,15 +14,24 @@ h1 {
     font-weight: 600;
     color: #192b59;
 }
+
 .nav {
     font-size: 12px;
     font-weight: 700;
-    color: #6e7ea9;
     letter-spacing: 2.4px;
     text-transform: uppercase;
-    /* list-style-type: none; */
+    list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
+}
+
+.nav>li {
+    padding: 0 15px;
+}
+
+.nav-item {
+    color: #6e7ea9;
 }
 
 .btn-primary {
